@@ -2,18 +2,11 @@
 
 Academic homepage: https://ccandtt.github.io/
 
-Uses the official al-folio styles and page structure as a portable static edition. English is the default language; click 中文 to switch to Chinese. Includes selected publications, education, a graduation photo, and the original CV download.
+This static site uses AcadHomepage as its base. Edit `index.html` for content, `assets/css/site.css` for layout and colors, and `assets/js/profile.js` for navigation, theme, and figure previews. The photo, figures, and CV are in `assets/`.
 
-## Update the website
+## Preview and validate
 
-- `index.html`: English content with Chinese translations in `data-zh` attributes.
-- `styles.css`: site-specific appearance and responsive layout.
-- `app.js`: language switching, theme switching, and BibTeX controls.
-- `assets/`: photo, paper figures, CV, and fonts.
-- `vendor/`: unmodified official al-folio styles.
+- Run `npm run dev` and open `http://localhost:4174/` (Node.js 18 or newer; no dependencies to install).
+- Run `npm run check` to validate links to local assets, page anchors, JavaScript syntax, and the PDF (Node.js and Python 3).
 
-GitHub Pages publishes from the `main` branch root. `.nojekyll` allows this static edition to publish without a Jekyll build. Push updates to `main` to publish changes automatically.
-
-For a local preview: `python3 -m http.server 8080`.
-
-al-folio and Roboto licenses and source provenance are retained in this repository. This is a static edition, not a complete Jekyll source project.
+GitHub Pages publishes the root of `main`. No build is required; `.nojekyll` disables Jekyll processing. Attribution is in `docs/SOURCES.md` and `licenses/`.

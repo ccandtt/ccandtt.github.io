@@ -1,34 +1,212 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="Xinchang Wang"><meta name="description" content="Xinchang Wang — exploring AI research, understanding model behavior, and developing simple, impactful solutions. Academic homepage."><title>Xinchang Wang · 王心畅</title><link rel="canonical" href="https://ccandtt.github.io/"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="vendor/al-folio-tailwind.css"><link rel="stylesheet" href="vendor/al-folio-main.css"><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script></head>
-<body class="fixed-top-nav"><a class="skip-link" href="#main"><span data-zh="跳转到正文">Skip to content</span></a>
-<header><nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" aria-label="Main navigation"><div class="container"><a class="navbar-brand" href="#about"><strong>Wang</strong> Xinchang</a><div class="site-nav"><a class="nav-link active" href="#about"><span data-zh="关于">about</span></a><a class="nav-link" href="#publications"><span data-zh="论文">publications</span></a><a class="nav-link" href="assets/xinchang-wang-cv.pdf" download="Xinchang-Wang-CV.pdf">CV</a><button class="nav-link language-switch" id="language-switch" type="button" aria-label="切换为中文">中文</button><button id="theme-switch" class="nav-link" type="button" aria-label="Switch to dark theme" title="Change color theme">☾</button></div></div></nav></header>
-<main id="main" class="container mt-5"><div class="post" id="about"><header class="post-header"><h1 class="post-title"><span data-zh="欢迎来到我的个人网站">Welcome to my <span class="font-weight-bold">personal website</span></span></h1><p class="desc"><span data-zh="计算机科学与技术 · 复旦大学">Computer Science and Technology · Fudan University</span></p></header>
-<article><div class="profile float-right"><figure><img src="assets/portrait.jpg" class="img-fluid z-depth-1 rounded" width="1772" height="1772" alt="Xinchang Wang at graduation" fetchpriority="high"></figure><div class="more-info"><span data-zh="中国 · 上海">Shanghai, China</span></div></div>
-<div class="clearfix bio">
-<p data-zh="我是复旦大学计算机科学与技术专业 2026 级直博生，本科就读于江南大学人工智能专业，期间在&lt;a href=&quot;https://hli1221.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;李辉老师&lt;/a&gt;的指导下开展科研。">I am a direct PhD student in Computer Science and Technology at <a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener noreferrer">Fudan University</a> (2026 cohort). My undergraduate studies were in Artificial Intelligence at Jiangnan University, where I conducted research under the supervision of <a href="https://hli1221.github.io/" target="_blank" rel="noopener noreferrer">Prof. Hui Li</a>.</p>
-<p data-zh="我目前正在探索人工智能研究的不同领域，广泛关注模型行为的理解，以及如何为重要问题开发简洁而有影响力的解决方案。">I am currently exploring different areas of AI research, with a broad interest in understanding model behavior and developing simple, impactful solutions to important problems.</p>
-<p data-zh="我曾在江苏省模式识别与计算智能工程实验室开展科研，参与 RA-Det 与 MambaGuard 研究。">I previously conducted research at the Jiangsu Engineering Laboratory of Pattern Recognition and Computational Intelligence, working on RA-Det and MambaGuard.</p>
-<p class="contact-links"><a href="mailto:xinchangwang2025@163.com">Email</a><span> / </span><a href="https://github.com/ccandtt" target="_blank" rel="noopener noreferrer">GitHub</a><span> / </span><a href="assets/xinchang-wang-cv.pdf" download="Xinchang-Wang-CV.pdf"><span data-zh="下载简历">Download CV</span></a></p>
-</div>
-<section id="publications"><h2><span data-zh="精选论文">selected publications</span></h2><p class="equal-note"><span data-zh="* 表示同等贡献。">* Equal contribution.</span></p><div class="publications"><ol class="bibliography"><li id="radet"><div class="row publication-row">
- <div class="col col-sm-3 abbr"><a href="https://arxiv.org/abs/2603.01544" target="_blank" rel="noopener noreferrer" aria-label="RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry"><img class="publication-preview" src="assets/ra-det-framework.png" alt="ICML 2026 — method overview" width="180" height="125" loading="lazy"></a><abbr class="badge rounded">ICML 2026</abbr></div>
- <div class="col-sm-9 publication-content"><div class="title"><a href="https://arxiv.org/abs/2603.01544" target="_blank" rel="noopener noreferrer">RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry</a></div><div class="author"><em>Xinchang Wang<sup>*</sup></em>, Yunhao Chen<sup>*</sup>, Yuechen Zhang, Congcong Bian, Zihao Guo, Xingjun Ma, Hui Li</div><div class="periodical"><span data-zh="已录用 · 共同第一作者">Accepted · Co-first author</span></div><div class="paper-description"><p data-zh="利用真实与生成图像在轻微扰动下的鲁棒性不对称，探索跨生成器的图像检测。">Detecting generated images through the asymmetric robustness of real and synthetic images under mild perturbations.</p></div><div class="links"><a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2603.01544" target="_blank" rel="noopener noreferrer">Paper</a><a class="btn btn-sm z-depth-0" href="https://github.com/dongdongunique/RA-Det" target="_blank" rel="noopener noreferrer">Code</a><button class="btn btn-sm z-depth-0" type="button" data-citation="radet" aria-expanded="false" aria-controls="bib-radet">BibTeX</button></div><div class="bibtex-panel" id="bib-radet" hidden><pre></pre><button class="copy-citation btn btn-sm" type="button" data-copy="radet"><span data-zh="复制引用">Copy citation</span></button></div></div></div></li><li id="mamba"><div class="row publication-row">
- <div class="col col-sm-3 abbr"><a href="https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25" target="_blank" rel="noopener noreferrer" aria-label="MambaGuard: A CLIP-Mamba Approach for OOD Generated Image Detection"><img class="publication-preview" src="assets/mambaguard-framework.png" alt="PRCV 2025 — method overview" width="180" height="125" loading="lazy"></a><abbr class="badge rounded">PRCV 2025</abbr></div>
- <div class="col-sm-9 publication-content"><div class="title"><a href="https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25" target="_blank" rel="noopener noreferrer">MambaGuard: A CLIP-Mamba Approach for OOD Generated Image Detection</a></div><div class="author"><em>Xinchang Wang<sup>*</sup></em>, Yuechen Zhang<sup>*</sup>, Zihao Guo<sup>*</sup>, Wenyao Qiu, Chunyang Cheng, Hui Li</div><div class="periodical"><span data-zh="已发表 · 共同第一作者">Published · Co-first author</span></div><div class="paper-description"><p data-zh="融合 CLIP-Mamba 表征与频谱特征细化，提升分布外生成图像检测能力。">Combining CLIP-Mamba representations with spectral feature refinement for out-of-distribution generated image detection.</p></div><div class="links"><a class="btn btn-sm z-depth-0" href="https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25" target="_blank" rel="noopener noreferrer">Paper</a><a class="btn btn-sm z-depth-0" href="https://github.com/orangecc7/MambaGuard" target="_blank" rel="noopener noreferrer">Code</a><button class="btn btn-sm z-depth-0" type="button" data-citation="mamba" aria-expanded="false" aria-controls="bib-mamba">BibTeX</button></div><div class="bibtex-panel" id="bib-mamba" hidden><pre></pre><button class="copy-citation btn btn-sm" type="button" data-copy="mamba"><span data-zh="复制引用">Copy citation</span></button></div></div></div></li></ol></div></section>
-<section id="education" aria-labelledby="education-title">
-<h2 id="education-title"><span data-zh="教育经历">education</span></h2>
-<div class="education-list">
-<div class="education-row">
-<div class="education-topline"><h3 class="education-school"><span data-zh="复旦大学">Fudan University</span></h3><span class="education-date"><span data-zh="2026 – 至今">2026 – Present</span></span></div>
-<p><span data-zh="直博 · 计算机科学与技术">Direct PhD · Computer Science and Technology</span></p>
-</div>
-<div class="education-row">
-<div class="education-topline"><h3 class="education-school"><span data-zh="江南大学">Jiangnan University</span></h3><span class="education-date">2022 – 2026</span></div>
-<p><span data-zh="本科 · 人工智能">Undergraduate studies · Artificial Intelligence</span></p>
-<p class="advisor"><span data-zh="本科科研导师：">Undergraduate research advisor: </span><a href="https://hli1221.github.io/" target="_blank" rel="noopener noreferrer"><span data-zh="李辉老师">Prof. Hui Li</span></a></p>
-</div>
-</div>
-<p class="honor"><span data-zh="荣誉：国家奖学金。">Honors: National Scholarship.</span></p>
-</section>
-</article></div></main>
-<footer class="site-footer"><div class="container">© 2026 <span data-zh="王心畅">Xinchang Wang</span>. <span data-zh="基于">Powered by</span> <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a>.</div></footer><div id="toast" role="status" aria-live="polite" hidden></div></body></html>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xinchang Wang — Causal Inference &amp; AI Agents</title>
+  <meta name="description" content="Xinchang Wang, a joint PhD student at Fudan University and Beijing Zhongguancun Academy, exploring causal inference and AI agents.">
+  <meta name="author" content="Xinchang Wang">
+  <link rel="canonical" href="https://ccandtt.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Xinchang Wang">
+  <meta property="og:description" content="Joint PhD student at Fudan University and Beijing Zhongguancun Academy. Exploring causal inference and AI agents.">
+  <meta property="og:url" content="https://ccandtt.github.io/">
+  <meta property="og:image" content="https://ccandtt.github.io/assets/images/portrait.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#faf7ff">
+  <link rel="icon" href="assets/icons/favicon.ico?v=3" sizes="any">
+  <link rel="icon" href="assets/icons/favicon-32.png?v=3" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/icons/favicon.svg?v=3" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/favicon-180.png?v=3" sizes="180x180">
+  <script>
+    document.documentElement.classList.replace('no-js', 'js');
+    try {
+      const savedTheme = localStorage.getItem('xinchang-theme');
+      document.documentElement.dataset.theme = savedTheme === 'dark' || savedTheme === 'light'
+        ? savedTheme : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    } catch (_) { document.documentElement.dataset.theme = 'light'; }
+  </script>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/profile.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":"Xinchang Wang","alternateName":"王心畅","url":"https://ccandtt.github.io/","email":"xinchangwang2025@163.com","affiliation":[{"@type":"CollegeOrUniversity","name":"Fudan University"},{"@type":"EducationalOrganization","name":"Beijing Zhongguancun Academy"}],"sameAs":["https://github.com/ccandtt"]}
+  </script>
+  <script src="assets/js/profile.js" defer></script>
+</head>
+<body>
+  <!-- Local Phosphor symbols; no external icon or font service is required. -->
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="icon-sun" viewBox="0 0 256 256"><path fill="currentColor" d="M120 40V16a8 8 0 0 1 16 0v24a8 8 0 0 1-16 0m8 24a64 64 0 1 0 64 64a64.07 64.07 0 0 0-64-64m-69.66 5.66a8 8 0 0 0 11.32-11.32l-16-16a8 8 0 0 0-11.32 11.32Zm0 116.68l-16 16a8 8 0 0 0 11.32 11.32l16-16a8 8 0 0 0-11.32-11.32M192 72a8 8 0 0 0 5.66-2.34l16-16a8 8 0 0 0-11.32-11.32l-16 16A8 8 0 0 0 192 72m5.66 114.34a8 8 0 0 0-11.32 11.32l16 16a8 8 0 0 0 11.32-11.32ZM48 128a8 8 0 0 0-8-8H16a8 8 0 0 0 0 16h24a8 8 0 0 0 8-8m80 80a8 8 0 0 0-8 8v24a8 8 0 0 0 16 0v-24a8 8 0 0 0-8-8m112-88h-24a8 8 0 0 0 0 16h24a8 8 0 0 0 0-16"/></symbol>
+    <symbol id="icon-moon" viewBox="0 0 256 256"><path fill="currentColor" d="M235.54 150.21a104.84 104.84 0 0 1-37 52.91A104 104 0 0 1 32 120a103.1 103.1 0 0 1 20.88-62.52a104.84 104.84 0 0 1 52.91-37a8 8 0 0 1 10 10a88.08 88.08 0 0 0 109.8 109.8a8 8 0 0 1 10 10Z"/></symbol>
+    <symbol id="icon-email" viewBox="0 0 256 256"><path fill="currentColor" d="M224 48H32a8 8 0 0 0-8 8v136a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a8 8 0 0 0-8-8m-8 144H40V74.19l82.59 75.71a8 8 0 0 0 10.82 0L216 74.19z"/></symbol>
+    <symbol id="icon-github" viewBox="0 0 256 256"><path fill="currentColor" d="M216 104v8a56.06 56.06 0 0 1-48.44 55.47A39.8 39.8 0 0 1 176 192v40a8 8 0 0 1-8 8h-64a8 8 0 0 1-8-8v-16H72a40 40 0 0 1-40-40a24 24 0 0 0-24-24a8 8 0 0 1 0-16a40 40 0 0 1 40 40a24 24 0 0 0 24 24h24v-8a39.8 39.8 0 0 1 8.44-24.53A56.06 56.06 0 0 1 56 112v-8a58.14 58.14 0 0 1 7.69-28.32A59.78 59.78 0 0 1 69.07 28A8 8 0 0 1 76 24a59.75 59.75 0 0 1 48 24h24a59.75 59.75 0 0 1 48-24a8 8 0 0 1 6.93 4a59.74 59.74 0 0 1 5.37 47.68A58 58 0 0 1 216 104"/></symbol>
+    <symbol id="icon-document" viewBox="0 0 256 256"><path fill="currentColor" d="m213.66 82.34l-56-56A8 8 0 0 0 152 24H56a16 16 0 0 0-16 16v176a16 16 0 0 0 16 16h144a16 16 0 0 0 16-16V88a8 8 0 0 0-2.34-5.66M160 176H96a8 8 0 0 1 0-16h64a8 8 0 0 1 0 16m0-32H96a8 8 0 0 1 0-16h64a8 8 0 0 1 0 16m-8-56V44l44 44Z"/></symbol>
+    <symbol id="icon-code" viewBox="0 0 256 256"><path fill="currentColor" d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16M92.8 145.6a8 8 0 1 1-9.6 12.8l-32-24a8 8 0 0 1 0-12.8l32-24a8 8 0 0 1 9.6 12.8L69.33 128Zm58.89-71.4l-32 112a8 8 0 1 1-15.38-4.4l32-112a8 8 0 0 1 15.38 4.4m53.11 60.2l-32 24a8 8 0 0 1-9.6-12.8l23.47-17.6l-23.47-17.6a8 8 0 1 1 9.6-12.8l32 24a8 8 0 0 1 0 12.8"/></symbol>
+    <symbol id="icon-arrow" viewBox="0 0 256 256"><path fill="currentColor" d="M200 64v104a8 8 0 0 1-13.66 5.66L140 127.31l-70.34 70.35a8 8 0 0 1-11.32-11.32L128.69 116L82.34 69.66A8 8 0 0 1 88 56h104a8 8 0 0 1 8 8"/></symbol>
+    <symbol id="icon-expand" viewBox="0 0 256 256"><path fill="currentColor" d="M93.66 202.34A8 8 0 0 1 88 216H48a8 8 0 0 1-8-8v-40a8 8 0 0 1 13.66-5.66ZM88 40H48a8 8 0 0 0-8 8v40a8 8 0 0 0 13.66 5.66l40-40A8 8 0 0 0 88 40m123.06 120.61a8 8 0 0 0-8.72 1.73l-40 40A8 8 0 0 0 168 216h40a8 8 0 0 0 8-8v-40a8 8 0 0 0-4.94-7.39M208 40h-40a8 8 0 0 0-5.66 13.66l40 40A8 8 0 0 0 216 88V48a8 8 0 0 0-8-8"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 256 256"><path fill="currentColor" d="M208 32H48a16 16 0 0 0-16 16v160a16 16 0 0 0 16 16h160a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16m-26.34 138.34a8 8 0 0 1-11.32 11.32L128 139.31l-42.34 42.35a8 8 0 0 1-11.32-11.32L116.69 128L74.34 85.66a8 8 0 0 1 11.32-11.32L128 116.69l42.34-42.35a8 8 0 0 1 11.32 11.32L139.31 128Z"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="masthead__inner-wrap">
+      <a class="site-brand" href="#about-me" aria-label="Homepage"><span>Homepage</span></a>
+      <nav class="site-navigation" aria-label="Main navigation">
+        <a href="#about-me" aria-current="location"><span>About</span></a>
+        <a href="#news"><span>News</span></a>
+        <a href="#research"><span>Publications</span></a>
+        <a href="#education"><span>Education</span></a>
+        <a href="#honors"><span>Honors</span></a>
+        <span class="nav-indicator" aria-hidden="true"></span>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <span class="theme-sun"><svg class="icon" aria-hidden="true"><use href="#icon-sun"></use></svg></span>
+        <span class="theme-moon"><svg class="icon" aria-hidden="true"><use href="#icon-moon"></use></svg></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <aside class="sidebar sticky" aria-label="Personal profile">
+      <div class="profile_box" itemscope itemtype="https://schema.org/Person">
+        <div class="author__avatar">
+          <div class="author__avatar-crop">
+            <img src="assets/images/portrait.jpg" alt="Xinchang Wang at graduation" width="1772" height="1772" fetchpriority="high" itemprop="image">
+          </div>
+        </div>
+        <div class="author__content">
+          <h2 class="author__name" itemprop="name">Xinchang Wang</h2>
+          <p class="author__bio"><span>PhD Student</span></p>
+          <p class="author__affiliation">Fudan University<br>Beijing Zhongguancun Academy</p>
+        </div>
+        <nav class="profile-contact" aria-label="Contact and academic profiles">
+          <ul>
+            <li><a class="contact-link" href="mailto:xinchangwang2025@163.com"><svg class="icon" aria-hidden="true"><use href="#icon-email"></use></svg><span>Email</span></a></li>
+            <li><a href="https://github.com/ccandtt" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg><span>GitHub</span></a></li>
+            <li><a href="assets/documents/xinchang-wang-cv.pdf" download="Xinchang-Wang-CV.pdf"><svg class="icon" aria-hidden="true"><use href="#icon-document"></use></svg><span>Download CV</span></a></li>
+          </ul>
+        </nav>
+        <p class="profile-note"><span class="note-label">Research</span>Causal Inference<br>AI Agents<br>AIGC Detection</p>
+      </div>
+    </aside>
+
+    <article class="page">
+      <div class="page__inner-wrap">
+        <div class="page__content">
+          <section class="intro" id="about-me" aria-labelledby="intro-heading">
+            <h1 id="intro-heading"><span class="greeting-start">Hi, I'm </span><span>Xinchang</span><span class="intro-period">.</span></h1>
+            <p>I'm <strong>Xinchang Wang</strong>, a PhD student jointly trained by <a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener noreferrer">Fudan University</a> and <a href="https://www.bza.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Zhongguancun Academy</a> (2026 cohort). I am advised by <a class="advisor-link" href="http://xingjunma.com/" target="_blank" rel="noopener noreferrer">Prof. Xingjun Ma</a> at Fudan University and <a class="advisor-link" href="https://haoxuanli-pku.github.io/" target="_blank" rel="noopener noreferrer">Prof. Haoxuan Li</a> at Beijing Zhongguancun Academy.</p>
+            <p>I am currently exploring <strong>causal inference</strong> and <strong>AI agents</strong>.</p>
+            <p>I completed my undergraduate studies in Artificial Intelligence at Jiangnan University, where I conducted research under the supervision of <a class="advisor-link" href="https://hli1221.github.io/" target="_blank" rel="noopener noreferrer">Prof. Hui Li</a>. My previous work includes <a href="#ra-det-title">RA-Det</a> and <a href="#mambaguard-title">MambaGuard</a> for AI-generated image detection.</p>
+          </section>
+
+          <section id="news" aria-labelledby="news-heading">
+            <div class="section-heading"><h2 id="news-heading"><img class="icon icon--heading" src="assets/icons/headings/news.png" width="24" height="24" alt="" aria-hidden="true"><span>News</span></h2></div>
+            <ul class="news-list">
+              <li><time datetime="2026">2026</time><span>Started joint PhD training at <strong>Fudan University</strong> and <strong>Beijing Zhongguancun Academy</strong>.</span></li>
+              <li><time datetime="2026">2026</time><span><a href="#ra-det-title">RA-Det</a> was accepted to <strong>ICML 2026</strong>. Co-first author.</span></li>
+              <li><time datetime="2025">2025</time><span><a href="#mambaguard-title">MambaGuard</a> appeared at <strong>PRCV 2025</strong>. Co-first author.</span></li>
+            </ul>
+          </section>
+
+          <section id="research" aria-labelledby="research-heading">
+            <div class="section-heading"><h2 id="research-heading"><img class="icon icon--heading" src="assets/icons/headings/publications.png" width="24" height="24" alt="" aria-hidden="true"><span>Selected Publications</span></h2></div>
+            <p class="contribution-note"><span>* Equal contribution.</span></p>
+            <div class="research-group" id="aigc-detection">
+              <h3 class="research-group-title"><img class="icon icon--heading" src="assets/icons/headings/aigc-detection.png" width="24" height="24" alt="" aria-hidden="true"><span>AIGC Detection</span></h3>
+
+              <article class="paper-box" aria-labelledby="ra-det-title">
+                <div class="paper-box-image">
+                  <button class="framework-preview" type="button" data-framework-src="assets/images/ra-det-framework.png" data-framework-name="RA-Det" data-framework-alt="RA-Det framework: robustness asymmetry for detecting AI-generated images" aria-label="View RA-Det framework" aria-haspopup="dialog">
+                    <img src="assets/images/ra-det-framework.png" alt="RA-Det framework: robustness asymmetry for detecting AI-generated images" width="180" height="125" loading="lazy">
+                    <span class="figure-expand" aria-hidden="true"><svg class="icon"><use href="#icon-expand"></use></svg></span>
+                  </button>
+                </div>
+                <div class="paper-box-text">
+                  <h4 id="ra-det-title"><a href="https://arxiv.org/abs/2603.01544" target="_blank" rel="noopener noreferrer">RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry</a></h4>
+                  <p class="paper-authors"><strong>Xinchang Wang<sup>*</sup></strong>, Yunhao Chen<sup>*</sup>, Yuechen Zhang, Congcong Bian, Zihao Guo, Xingjun Ma, Hui Li</p>
+                  <div class="paper-meta"><span class="venue">ICML 2026</span><span class="meta-dot" aria-hidden="true">·</span><span>Accepted · Co-first author</span></div>
+                  <p class="paper-summary">Detecting generated images through the asymmetric robustness of real and synthetic images under mild perturbations.</p>
+                  <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2603.01544" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-document"></use></svg><span>Paper</span><span class="link-arrow" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span></a>
+                    <a href="https://github.com/dongdongunique/RA-Det" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-code"></use></svg><span>Code</span><span class="link-arrow" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span></a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="paper-box" aria-labelledby="mambaguard-title">
+                <div class="paper-box-image">
+                  <button class="framework-preview" type="button" data-framework-src="assets/images/mambaguard-framework.png" data-framework-name="MambaGuard" data-framework-alt="MambaGuard framework: CLIP-Mamba representations and spectral feature refinement" aria-label="View MambaGuard framework" aria-haspopup="dialog">
+                    <img src="assets/images/mambaguard-framework.png" alt="MambaGuard framework: CLIP-Mamba representations and spectral feature refinement" width="180" height="125" loading="lazy">
+                    <span class="figure-expand" aria-hidden="true"><svg class="icon"><use href="#icon-expand"></use></svg></span>
+                  </button>
+                </div>
+                <div class="paper-box-text">
+                  <h4 id="mambaguard-title"><a href="https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25" target="_blank" rel="noopener noreferrer">MambaGuard: A CLIP-Mamba Approach for OOD Generated Image Detection</a></h4>
+                  <p class="paper-authors"><strong>Xinchang Wang<sup>*</sup></strong>, Yuechen Zhang<sup>*</sup>, Zihao Guo<sup>*</sup>, Wenyao Qiu, Chunyang Cheng, Hui Li</p>
+                  <div class="paper-meta"><span class="venue">PRCV 2025</span><span class="meta-dot" aria-hidden="true">·</span><span>Published · Co-first author</span></div>
+                  <p class="paper-summary">Combining CLIP-Mamba representations with spectral feature refinement for out-of-distribution generated image detection.</p>
+                  <div class="paper-links">
+                    <a href="https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-document"></use></svg><span>Paper</span><span class="link-arrow" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span></a>
+                    <a href="https://github.com/orangecc7/MambaGuard" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-code"></use></svg><span>Code</span><span class="link-arrow" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"></use></svg></span></a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="education" aria-labelledby="education-heading">
+            <div class="section-heading"><h2 id="education-heading"><img class="icon icon--heading" src="assets/icons/headings/education.png" width="24" height="24" alt="" aria-hidden="true"><span>Education</span></h2></div>
+            <div class="education-list">
+              <article class="education-item">
+                <div class="education-dates"><span class="education-date-value">2026–Present</span><span>Joint training</span></div>
+                <div class="education-details">
+                  <h3><a href="https://www.bza.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Zhongguancun Academy</a></h3>
+                  <p class="education-program"><span class="education-degree">Joint doctoral training with Fudan University</span></p>
+                  <p class="education-school education-advisors">Advisor: <a class="advisor-link" href="https://haoxuanli-pku.github.io/" target="_blank" rel="noopener noreferrer">Prof. Haoxuan Li</a></p>
+                </div>
+              </article>
+              <article class="education-item">
+                <div class="education-dates"><span class="education-date-value">2026–Present</span><span>In progress</span></div>
+                <div class="education-details">
+                  <h3><a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener noreferrer"><span>Fudan University</span><span class="institution-short"> (FDU)</span></a></h3>
+                  <p class="education-program"><span class="education-degree">PhD</span><span class="education-separator" aria-hidden="true"> · </span><span class="education-major">Computer Science and Technology</span></p>
+                  <p class="education-school education-advisors">Advisor: <a class="advisor-link" href="http://xingjunma.com/" target="_blank" rel="noopener noreferrer">Prof. Xingjun Ma</a></p>
+                </div>
+              </article>
+              <article class="education-item">
+                <div class="education-dates">2022–2026</div>
+                <div class="education-details">
+                  <h3><a href="https://www.jiangnan.edu.cn/" target="_blank" rel="noopener noreferrer"><span>Jiangnan University</span><span class="institution-short"> (JNU)</span></a></h3>
+                  <p class="education-program"><span class="education-degree">Undergraduate studies</span><span class="education-separator" aria-hidden="true"> · </span><span class="education-major">Artificial Intelligence</span></p>
+                  <p class="education-school"><span>Undergraduate research advisor: </span><a class="advisor-link" href="https://hli1221.github.io/" target="_blank" rel="noopener noreferrer"><span>Prof. Hui Li</span></a></p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="honors" aria-labelledby="honors-heading">
+            <div class="section-heading"><h2 id="honors-heading"><img class="icon icon--heading" src="assets/icons/headings/honors.png" width="24" height="24" alt="" aria-hidden="true"><span>Honors</span></h2></div>
+            <article class="honors-note" aria-labelledby="national-scholarship-title">
+              <div class="honor-dates">2025–2026</div>
+              <div class="honor-details">
+                <h3 id="national-scholarship-title">National Scholarship</h3>
+                <p><a href="https://www.jiangnan.edu.cn/" target="_blank" rel="noopener noreferrer">Jiangnan University</a></p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <dialog class="framework-dialog" aria-labelledby="framework-dialog-title">
+    <div class="framework-dialog-header">
+      <h2 class="framework-dialog-title" id="framework-dialog-title">Research framework</h2>
+      <button class="framework-close" type="button" aria-label="Close framework"><svg class="icon" aria-hidden="true"><use href="#icon-close"></use></svg></button>
+    </div>
+    <div class="framework-dialog-media"><p class="framework-image-status" role="status" aria-live="polite" hidden>Loading image…</p><img class="framework-dialog-image" alt=""></div>
+  </dialog>
+  <footer class="profile-footer"><span>© 2026 Xinchang Wang.</span><span><span>Built with</span> <a href="https://github.com/RayeRen/acad-homepage.github.io" target="_blank" rel="noopener noreferrer">AcadHomepage</a>.</span></footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>C — Xinchang Wang</title>
+  <g transform="rotate(-11 32 32)">
+    <path d="M50 13C45 5 35 6 26 10C13 16 5 32 9 45C13 59 29 61 43 51C48 47 52 42 55 37C56 35 54 34 52 37C43 47 31 53 22 49C14 45 16 32 23 23C29 16 37 12 43 14C46 16 45 20 48 20C52 20 53 16 50 13Z" fill="#A06AF5"/>
+    <path d="M18 56C29 60 45 54 53 47" stroke="#B893FF" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+</svg>
